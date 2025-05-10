@@ -191,11 +191,11 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 10
+                            "ioValue": 5
                         },
                         {
                             "name": "y length",
-                            "ioValue": 10
+                            "ioValue": 12
                         }
                     ],
                     "description": "Creates a new rectangle."
@@ -203,8 +203,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 0.2783018867924528,
-                    "y": 0.7972166998011929,
+                    "x": 0.32028301886792454,
+                    "y": 0.7912524850894632,
                     "uniqueID": 1746856296700,
                     "ioValues": [
                         {
@@ -213,7 +213,7 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 10
+                            "ioValue": 20
                         }
                     ],
                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -239,10 +239,19 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.6490566037735849,
-                    "y": 0.3558648111332008,
+                    "x": 0.6509433962264152,
+                    "y": 0.4453280318091451,
                     "uniqueID": 1746856599372,
-                    "ioValues": [],
+                    "ioValues": [
+                        {
+                            "name": "Shape 1",
+                            "ioValue": 1746856726488
+                        },
+                        {
+                            "name": "Shape 2",
+                            "ioValue": 1746856807817
+                        }
+                    ],
                     "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
                 },
                 {
@@ -262,6 +271,58 @@
                         }
                     ],
                     "description": "Subtracts shape two from shape one."
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.4363207547169811,
+                    "y": 0.900596421471173,
+                    "uniqueID": 1746856802947,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1746856296700
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ],
+                    "description": "Moves a shape laterally in X, Y, Z."
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.43443396226415093,
+                    "y": 0.6163021868787276,
+                    "uniqueID": 1746856807817,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1746856296700
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 58
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ],
+                    "description": "Moves a shape laterally in X, Y, Z."
                 }
             ],
             "allConnectors": [
@@ -330,10 +391,38 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1746856296700,
+                    "ap2ID": 1746856807817
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1746856296700,
+                    "ap2ID": 1746856802947
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "geometry1",
                     "ap2Primary": false,
                     "ap1ID": 1746856380860,
                     "ap2ID": 1746856726488
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape 1",
+                    "ap2Primary": false,
+                    "ap1ID": 1746856726488,
+                    "ap2ID": 1746856599372
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape 2",
+                    "ap2Primary": false,
+                    "ap1ID": 1746856807817,
+                    "ap2ID": 1746856599372
                 }
             ],
             "fileTypeVersion": 1,
