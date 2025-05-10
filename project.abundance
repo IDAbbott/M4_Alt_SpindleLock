@@ -11,8 +11,8 @@
         {
             "atomType": "Output",
             "name": "Output",
-            "x": 0.98,
-            "y": 0.5,
+            "x": 0.9698113207547171,
+            "y": 0.4970178926441352,
             "uniqueID": 1745367617559,
             "ioValues": [
                 {
@@ -38,7 +38,12 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": 1745367621843,
-                    "ioValues": [],
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": 1746856599372
+                        }
+                    ],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -221,8 +226,8 @@
                 {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 0.44386792452830187,
-                    "y": 0.3320079522862823,
+                    "x": 0.4396226415094339,
+                    "y": 0.32803180914512925,
                     "uniqueID": 1746856380860,
                     "ioValues": [
                         {
@@ -239,8 +244,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.6509433962264152,
-                    "y": 0.4453280318091451,
+                    "x": 0.6547169811320755,
+                    "y": 0.44930417495029823,
                     "uniqueID": 1746856599372,
                     "ioValues": [
                         {
@@ -250,6 +255,10 @@
                         {
                             "name": "Shape 2",
                             "ioValue": 1746856807817
+                        },
+                        {
+                            "name": "Shape 3",
+                            "ioValue": 1746856802947
                         }
                     ],
                     "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
@@ -289,7 +298,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0
+                            "ioValue": -58
                         },
                         {
                             "name": "zDist",
@@ -412,9 +421,23 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 1746856599372,
+                    "ap2ID": 1745367621843
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "Shape 1",
                     "ap2Primary": false,
                     "ap1ID": 1746856726488,
+                    "ap2ID": 1746856599372
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape 3",
+                    "ap2Primary": false,
+                    "ap1ID": 1746856802947,
                     "ap2ID": 1746856599372
                 },
                 {
