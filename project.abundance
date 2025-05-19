@@ -538,7 +538,7 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 25
+                            "ioValue": 20
                         }
                     ],
                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -796,7 +796,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 13
+                            "ioValue": 16
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
