@@ -17,7 +17,8 @@
             "ioValues": [
                 {
                     "name": "number or geometry",
-                    "ioValue": 1745367622132
+                    "ioValue": 1745367622132,
+                    "currentEquation": null
                 }
             ],
             "description": "Connect geometry here to make it available in the next level up. "
@@ -41,7 +42,8 @@
                     "ioValues": [
                         {
                             "name": "number or geometry",
-                            "ioValue": 1746856599372
+                            "ioValue": 1746856599372,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Connect geometry here to make it available in the next level up. "
@@ -55,7 +57,8 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 128
+                            "ioValue": 128,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Creates a new circle."
@@ -69,7 +72,8 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 101
+                            "ioValue": 101,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Creates a new circle."
@@ -83,11 +87,13 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": 1745367622131
+                            "ioValue": 1745367622131,
+                            "currentEquation": null
                         },
                         {
                             "name": "height",
-                            "ioValue": 4
+                            "ioValue": 4,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -101,11 +107,13 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": 1745367622179
+                            "ioValue": 1745367622179,
+                            "currentEquation": null
                         },
                         {
                             "name": "height",
-                            "ioValue": 4
+                            "ioValue": 4,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -119,7 +127,8 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": 1745367622172
+                            "ioValue": 1745367622172,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Changes the color of the shape.",
@@ -134,11 +143,13 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 85
+                            "ioValue": 85,
+                            "currentEquation": null
                         },
                         {
                             "name": "y length",
-                            "ioValue": 155
+                            "ioValue": 155,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Creates a new rectangle."
@@ -152,11 +163,13 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": 1745367622074
+                            "ioValue": 1745367622074,
+                            "currentEquation": null
                         },
                         {
                             "name": "height",
-                            "ioValue": 10
+                            "ioValue": 10,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -170,19 +183,23 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": 1745367621968
+                            "ioValue": 1745367621968,
+                            "currentEquation": null
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 40.5
+                            "ioValue": 40.5,
+                            "currentEquation": null
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0
+                            "ioValue": 0,
+                            "currentEquation": null
                         },
                         {
                             "name": "zDist",
-                            "ioValue": -2
+                            "ioValue": -2,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -196,11 +213,13 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 5
+                            "ioValue": 5,
+                            "currentEquation": null
                         },
                         {
                             "name": "y length",
-                            "ioValue": 12
+                            "ioValue": 12,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Creates a new rectangle."
@@ -214,11 +233,13 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": 1746856285727
+                            "ioValue": 1746856285727,
+                            "currentEquation": null
                         },
                         {
                             "name": "height",
-                            "ioValue": 20
+                            "ioValue": 20,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -232,11 +253,13 @@
                     "ioValues": [
                         {
                             "name": "geometry1",
-                            "ioValue": 1745367622565
+                            "ioValue": 1745367622565,
+                            "currentEquation": null
                         },
                         {
                             "name": "geometry2",
-                            "ioValue": 1745367621999
+                            "ioValue": 1745367621999,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Subtracts shape two from shape one."
@@ -272,11 +295,13 @@
                     "ioValues": [
                         {
                             "name": "geometry1",
-                            "ioValue": 1746856380860
+                            "ioValue": 1746856380860,
+                            "currentEquation": null
                         },
                         {
                             "name": "geometry2",
-                            "ioValue": 1745367622487
+                            "ioValue": 1745367622487,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Subtracts shape two from shape one."
@@ -290,19 +315,23 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": 1746856296700
+                            "ioValue": 1746856296700,
+                            "currentEquation": null
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": 0,
+                            "currentEquation": null
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -58
+                            "ioValue": -58,
+                            "currentEquation": null
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": 0,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -316,19 +345,23 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": 1746856296700
+                            "ioValue": 1746856296700,
+                            "currentEquation": null
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": 0,
+                            "currentEquation": null
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 58
+                            "ioValue": 58,
+                            "currentEquation": null
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": 0,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -338,112 +371,96 @@
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
-                    "ap2Primary": true,
                     "ap1ID": 1745367622179,
                     "ap2ID": 1745367622172
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
-                    "ap2Primary": true,
                     "ap1ID": 1745367622131,
                     "ap2ID": 1745367621999
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry2",
-                    "ap2Primary": false,
                     "ap1ID": 1745367621999,
                     "ap2ID": 1746856380860
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
-                    "ap2Primary": true,
                     "ap1ID": 1745367622172,
                     "ap2ID": 1745367622565
                 },
                 {
-                    "ap1Name": "geometry",
+                    "ap1Name": "color",
                     "ap2Name": "geometry1",
-                    "ap2Primary": false,
                     "ap1ID": 1745367622565,
                     "ap2ID": 1746856380860
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
-                    "ap2Primary": true,
                     "ap1ID": 1745367622074,
                     "ap2ID": 1745367621968
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
-                    "ap2Primary": true,
                     "ap1ID": 1745367621968,
                     "ap2ID": 1745367622487
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry2",
-                    "ap2Primary": false,
                     "ap1ID": 1745367622487,
                     "ap2ID": 1746856726488
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
-                    "ap2Primary": true,
                     "ap1ID": 1746856285727,
                     "ap2ID": 1746856296700
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
-                    "ap2Primary": true,
                     "ap1ID": 1746856296700,
                     "ap2ID": 1746856807817
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
-                    "ap2Primary": true,
                     "ap1ID": 1746856296700,
                     "ap2ID": 1746856802947
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry1",
-                    "ap2Primary": false,
                     "ap1ID": 1746856380860,
                     "ap2ID": 1746856726488
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
-                    "ap2Primary": false,
                     "ap1ID": 1746856599372,
                     "ap2ID": 1745367621843
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "Shape 1",
-                    "ap2Primary": false,
                     "ap1ID": 1746856726488,
                     "ap2ID": 1746856599372
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "Shape 3",
-                    "ap2Primary": false,
                     "ap1ID": 1746856802947,
                     "ap2ID": 1746856599372
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "Shape 2",
-                    "ap2Primary": false,
                     "ap1ID": 1746856807817,
                     "ap2ID": 1746856599372
                 }
@@ -470,7 +487,8 @@
                     "ioValues": [
                         {
                             "name": "number or geometry",
-                            "ioValue": 1745367622451
+                            "ioValue": 1745367622451,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Connect geometry here to make it available in the next level up. "
@@ -484,7 +502,8 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 24
+                            "ioValue": 24,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Creates a new circle."
@@ -498,11 +517,13 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": 1745367622672
+                            "ioValue": 1745367622672,
+                            "currentEquation": null
                         },
                         {
                             "name": "height",
-                            "ioValue": 9
+                            "ioValue": 9,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -510,17 +531,19 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 0.1061320754716981,
-                    "y": 0.8986083499005965,
+                    "x": 0.10798946444249342,
+                    "y": 0.896694214876033,
                     "uniqueID": 1745367622191,
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 4
+                            "ioValue": 4,
+                            "currentEquation": null
                         },
                         {
                             "name": "y length",
-                            "ioValue": 5
+                            "ioValue": 5,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Creates a new rectangle."
@@ -534,11 +557,13 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": 1745367622330
+                            "ioValue": 1745367622330,
+                            "currentEquation": null
                         },
                         {
                             "name": "height",
-                            "ioValue": 20
+                            "ioValue": 20,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -552,7 +577,8 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": 1745367622624
+                            "ioValue": 1745367622624,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Changes the color of the shape.",
@@ -567,7 +593,8 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": 1745367622548
+                            "ioValue": 1745367622548,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Changes the color of the shape.",
@@ -582,11 +609,13 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 30
+                            "ioValue": 30,
+                            "currentEquation": null
                         },
                         {
                             "name": "y length",
-                            "ioValue": 30
+                            "ioValue": 30,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Creates a new rectangle."
@@ -600,19 +629,23 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": 1745367621835
+                            "ioValue": 1745367621835,
+                            "currentEquation": null
                         },
                         {
                             "name": "xDist",
-                            "ioValue": -16
+                            "ioValue": -16,
+                            "currentEquation": null
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0
+                            "ioValue": 0,
+                            "currentEquation": null
                         },
                         {
                             "name": "zDist",
-                            "ioValue": -1
+                            "ioValue": -1,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -626,11 +659,13 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": 1745367622633
+                            "ioValue": 1745367622633,
+                            "currentEquation": null
                         },
                         {
                             "name": "height",
-                            "ioValue": 30
+                            "ioValue": 30,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -644,7 +679,8 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": 1745367622689
+                            "ioValue": 1745367622689,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Changes the color of the shape.",
@@ -659,38 +695,32 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": 1745367622191
+                            "ioValue": 1745367622191,
+                            "currentEquation": null
                         },
                         {
                             "name": "xDist",
-                            "ioValue": -2.5
+                            "ioValue": -2.5,
+                            "currentEquation": null
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0
+                            "ioValue": 0,
+                            "currentEquation": null
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": 0,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
                 },
                 {
-                    "atomType": "Color",
-                    "name": "Color",
-                    "x": 0.5466981132075471,
-                    "y": 0.1451292246520875,
-                    "uniqueID": 1745367622478,
-                    "ioValues": [],
-                    "description": "Changes the color of the shape.",
-                    "selectedColorIndex": 0
-                },
-                {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.5205992509363295,
-                    "y": 0.375249500998004,
+                    "x": 0.6180860403863038,
+                    "y": 0.46487603305785125,
                     "uniqueID": 1745367622451,
                     "ioValues": [
                         {
@@ -721,15 +751,18 @@
                     "ioValues": [
                         {
                             "name": "Shape 1",
-                            "ioValue": 1745367622201
+                            "ioValue": 1745367622201,
+                            "currentEquation": null
                         },
                         {
                             "name": "Shape 3",
-                            "ioValue": 1745367622246
+                            "ioValue": 1745367622246,
+                            "currentEquation": null
                         },
                         {
                             "name": "Shape 4",
-                            "ioValue": ""
+                            "ioValue": "",
+                            "currentEquation": null
                         },
                         {
                             "name": "Shape 1",
@@ -756,7 +789,8 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 10
+                            "ioValue": 10,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Creates a new circle."
@@ -770,7 +804,8 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 20
+                            "ioValue": 20,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Creates a new circle."
@@ -784,19 +819,23 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": 1745367622412
+                            "ioValue": 1745367622412,
+                            "currentEquation": null
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": 0,
+                            "currentEquation": null
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0
+                            "ioValue": 0,
+                            "currentEquation": null
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 16
+                            "ioValue": 16,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -810,19 +849,23 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": 1745367621856
+                            "ioValue": 1745367621856,
+                            "currentEquation": null
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": 0,
+                            "currentEquation": null
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0
+                            "ioValue": 0,
+                            "currentEquation": null
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 9
+                            "ioValue": 9,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -832,119 +875,102 @@
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
-                    "ap2Primary": true,
                     "ap1ID": 1745367622672,
                     "ap2ID": 1745367622548
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
-                    "ap2Primary": true,
                     "ap1ID": 1745367622548,
                     "ap2ID": 1745367622080
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
-                    "ap2Primary": true,
                     "ap1ID": 1745367622191,
                     "ap2ID": 1745367622330
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
-                    "ap2Primary": true,
                     "ap1ID": 1745367622624,
                     "ap2ID": 1745367622650
                 },
                 {
-                    "ap1Name": "geometry",
+                    "ap1Name": "color",
                     "ap2Name": "Shape 5",
-                    "ap2Primary": false,
                     "ap1ID": 1745367622650,
                     "ap2ID": 1745367622451
                 },
                 {
-                    "ap1Name": "geometry",
+                    "ap1Name": "color",
                     "ap2Name": "Shape 1",
-                    "ap2Primary": false,
                     "ap1ID": 1745367622080,
                     "ap2ID": 1745367622451
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
-                    "ap2Primary": true,
                     "ap1ID": 1745367621835,
                     "ap2ID": 1745367622633
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
-                    "ap2Primary": true,
                     "ap1ID": 1745367622633,
                     "ap2ID": 1745367622689
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
-                    "ap2Primary": true,
                     "ap1ID": 1745367622689,
                     "ap2ID": 1745367621789
                 },
                 {
-                    "ap1Name": "geometry",
+                    "ap1Name": "color",
                     "ap2Name": "Shape 4",
-                    "ap2Primary": false,
                     "ap1ID": 1745367621789,
                     "ap2ID": 1745367622451
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
-                    "ap2Primary": true,
                     "ap1ID": 1745367622330,
                     "ap2ID": 1745367622624
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
-                    "ap2Primary": false,
                     "ap1ID": 1745367622451,
                     "ap2ID": 1745367622390
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "Shape 3",
-                    "ap2Primary": false,
                     "ap1ID": 1745367622713,
                     "ap2ID": 1745367622451
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
-                    "ap2Primary": true,
                     "ap1ID": 1745367622412,
                     "ap2ID": 1745367622201
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
-                    "ap2Primary": true,
                     "ap1ID": 1745367621856,
                     "ap2ID": 1745367622246
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "Shape 1",
-                    "ap2Primary": false,
                     "ap1ID": 1745367622201,
                     "ap2ID": 1745367622713
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "Shape 3",
-                    "ap2Primary": false,
                     "ap1ID": 1745367622246,
                     "ap2ID": 1745367622713
                 }
@@ -979,19 +1005,23 @@
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": 1745367622132
-                },
-                {
-                    "name": "Resolution (dpi)",
-                    "ioValue": 96
-                },
-                {
-                    "name": "Part Name",
-                    "ioValue": "M4_Alt_SpindleLock"
+                    "ioValue": 1745367622132,
+                    "currentEquation": null
                 },
                 {
                     "name": "File Type",
-                    "ioValue": "STEP"
+                    "ioValue": "STEP",
+                    "currentEquation": null
+                },
+                {
+                    "name": "Resolution (dpi)",
+                    "ioValue": 96,
+                    "currentEquation": null
+                },
+                {
+                    "name": "Part Name",
+                    "ioValue": "M4_Alt_SpindleLock",
+                    "currentEquation": null
                 }
             ],
             "description": "Export Atom, let's you choose a type of file to Export.",
@@ -1009,19 +1039,23 @@
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": 1745367622335
+                    "ioValue": 1745367622335,
+                    "currentEquation": null
                 },
                 {
                     "name": "xDist",
-                    "ioValue": -63
+                    "ioValue": -63,
+                    "currentEquation": null
                 },
                 {
                     "name": "yDist",
-                    "ioValue": 0
+                    "ioValue": 0,
+                    "currentEquation": null
                 },
                 {
                     "name": "zDist",
-                    "ioValue": 0
+                    "ioValue": 0,
+                    "currentEquation": null
                 }
             ],
             "description": "Moves a shape laterally in X, Y, Z."
@@ -1029,43 +1063,38 @@
     ],
     "allConnectors": [
         {
-            "ap1Name": "Geometry",
+            "ap1Name": "geometry or number",
             "ap2Name": "Shape 6",
-            "ap2Primary": false,
             "ap1ID": 1745367622265,
             "ap2ID": 1745367622132
         },
         {
-            "ap1Name": "Geometry",
+            "ap1Name": "geometry or number",
             "ap2Name": "geometry",
-            "ap2Primary": true,
             "ap1ID": 1745367622335,
             "ap2ID": 1745367621933
         },
         {
             "ap1Name": "geometry",
             "ap2Name": "geometry",
-            "ap2Primary": false,
             "ap1ID": 1745367622132,
             "ap2ID": 1745367622532
         },
         {
             "ap1Name": "geometry",
             "ap2Name": "number or geometry",
-            "ap2Primary": false,
             "ap1ID": 1745367622132,
             "ap2ID": 1745367617559
         },
         {
             "ap1Name": "geometry",
             "ap2Name": "Shape 5",
-            "ap2Primary": false,
             "ap1ID": 1745367621933,
             "ap2ID": 1745367622132
         }
     ],
     "unitsKey": "MM",
     "fileTypeVersion": 1,
-    "compiledBom": {},
+    "compiledBom": [],
     "filetypeVersion": 1
 }
