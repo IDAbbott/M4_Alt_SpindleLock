@@ -207,19 +207,19 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 0.1830188679245283,
-                    "y": 0.7912524850894632,
+                    "x": 0.17822651448639157,
+                    "y": 0.7830578512396694,
                     "uniqueID": 1746856285727,
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 5,
-                            "currentEquation": null
+                            "ioValue": 3,
+                            "currentEquation": "3"
                         },
                         {
                             "name": "y length",
-                            "ioValue": 12,
-                            "currentEquation": null
+                            "ioValue": 14,
+                            "currentEquation": "14"
                         }
                     ],
                     "description": "Creates a new rectangle."
@@ -325,8 +325,8 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -58,
-                            "currentEquation": null
+                            "ioValue": -57,
+                            "currentEquation": "-57"
                         },
                         {
                             "name": "zDist",
@@ -339,8 +339,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.43443396226415093,
-                    "y": 0.6163021868787276,
+                    "x": 0.43371378402107114,
+                    "y": 0.6136363636363636,
                     "uniqueID": 1746856807817,
                     "ioValues": [
                         {
@@ -355,8 +355,8 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 58,
-                            "currentEquation": null
+                            "ioValue": 57,
+                            "currentEquation": "57"
                         },
                         {
                             "name": "zDist",
@@ -567,8 +567,8 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 0.10798946444249342,
-                    "y": 0.896694214876033,
+                    "x": 0.10886742756804214,
+                    "y": 0.8078512396694215,
                     "uniqueID": 1745367622191,
                     "ioValues": [
                         {
@@ -598,8 +598,8 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 20,
-                            "currentEquation": null
+                            "ioValue": 18,
+                            "currentEquation": "18"
                         }
                     ],
                     "description": "Extrudes a 2D shape. Input can be negitive. "
