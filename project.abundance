@@ -14,7 +14,13 @@
             "x": 0.9666374012291483,
             "y": 0.4855371900826447,
             "uniqueID": 1745367617559,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": 1745367622132,
+                    "currentEquation": null
+                }
+            ],
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
@@ -33,7 +39,13 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": 1745367621843,
-                    "ioValues": [],
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": "625959b8-5bf0-47fa-aaf7-615a044f8646",
+                            "currentEquation": null
+                        }
+                    ],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -176,8 +188,8 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 40.5,
-                            "currentEquation": null
+                            "ioValue": 41.5,
+                            "currentEquation": "41.5"
                         },
                         {
                             "name": "yDist",
@@ -265,11 +277,11 @@
                         },
                         {
                             "name": "Shape 3",
-                            "ioValue": null
+                            "ioValue": "e5084b05-b576-4b9b-b715-fef10172e40c"
                         },
                         {
                             "name": "Shape 4",
-                            "ioValue": null
+                            "ioValue": "2c030a20-91aa-4423-972c-6ef8c9dbbe56"
                         }
                     ],
                     "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
@@ -301,6 +313,11 @@
                     "y": 0.4256198347107438,
                     "uniqueID": "625959b8-5bf0-47fa-aaf7-615a044f8646",
                     "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1746856599372,
+                            "currentEquation": null
+                        },
                         {
                             "name": "xDist",
                             "ioValue": -2,
@@ -338,13 +355,13 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0,
-                            "currentEquation": null
+                            "ioValue": 57,
+                            "currentEquation": "57"
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 57,
-                            "currentEquation": "57"
+                            "ioValue": 0,
+                            "currentEquation": "0"
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -368,13 +385,13 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0,
-                            "currentEquation": null
+                            "ioValue": -57,
+                            "currentEquation": "-57"
                         },
                         {
                             "name": "zDist",
-                            "ioValue": -57,
-                            "currentEquation": "-57"
+                            "ioValue": 0,
+                            "currentEquation": "0"
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -1157,7 +1174,7 @@
                 },
                 {
                     "name": "Shape 6",
-                    "ioValue": null
+                    "ioValue": 1745367622265
                 }
             ],
             "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
@@ -1169,6 +1186,11 @@
             "y": 0.5721719457013574,
             "uniqueID": 1745367622532,
             "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1745367622132,
+                    "currentEquation": null
+                },
                 {
                     "name": "File Type",
                     "ioValue": "STEP",
