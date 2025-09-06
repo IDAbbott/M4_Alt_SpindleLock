@@ -24,24 +24,6 @@
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
-            "atomType": "Assembly",
-            "name": "Assembly",
-            "x": 0.3433962264150944,
-            "y": 0.4294234592445328,
-            "uniqueID": 1745367622132,
-            "ioValues": [
-                {
-                    "name": "Shape 5",
-                    "ioValue": 1745367621933
-                },
-                {
-                    "name": "Shape 6",
-                    "ioValue": 1745367622265
-                }
-            ],
-            "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
-        },
-        {
             "atomType": "Export",
             "name": "Export",
             "x": 0.5273509526736325,
@@ -1376,13 +1358,13 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.4376152427781193,
-            "y": 0.4950099800399202,
+            "x": 0.44191763982790416,
+            "y": 0.49101796407185627,
             "uniqueID": "3bf963d8-7f35-4b25-9e70-8a2cd934e3c0",
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": 1745367622132,
+                    "ioValue": "77fd5e8a-8d67-41ef-bcba-693234cfb78a",
                     "currentEquation": null
                 },
                 {
@@ -1402,26 +1384,39 @@
                 }
             ],
             "description": "Moves a shape laterally in X, Y, Z."
+        },
+        {
+            "atomType": "Fusion",
+            "name": "Fusion",
+            "x": 0.345421020282729,
+            "y": 0.4630738522954092,
+            "uniqueID": "77fd5e8a-8d67-41ef-bcba-693234cfb78a",
+            "ioValues": [
+                {
+                    "name": "Shape 1",
+                    "ioValue": 1745367621933
+                },
+                {
+                    "name": "Shape 2",
+                    "ioValue": 1745367622265
+                }
+            ],
+            "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
+            "unionType": "Fusion"
         }
     ],
     "allConnectors": [
         {
             "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap1ID": 1745367622132,
-            "ap2ID": "3bf963d8-7f35-4b25-9e70-8a2cd934e3c0"
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "Shape 5",
+            "ap2Name": "Shape 1",
             "ap1ID": 1745367621933,
-            "ap2ID": 1745367622132
+            "ap2ID": "77fd5e8a-8d67-41ef-bcba-693234cfb78a"
         },
         {
             "ap1Name": "geometry or number",
-            "ap2Name": "Shape 6",
+            "ap2Name": "Shape 2",
             "ap1ID": 1745367622265,
-            "ap2ID": 1745367622132
+            "ap2ID": "77fd5e8a-8d67-41ef-bcba-693234cfb78a"
         },
         {
             "ap1Name": "geometry or number",
@@ -1440,6 +1435,12 @@
             "ap2Name": "number or geometry",
             "ap1ID": "3bf963d8-7f35-4b25-9e70-8a2cd934e3c0",
             "ap2ID": 1745367617559
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap1ID": "77fd5e8a-8d67-41ef-bcba-693234cfb78a",
+            "ap2ID": "3bf963d8-7f35-4b25-9e70-8a2cd934e3c0"
         }
     ],
     "unitsKey": "MM",
