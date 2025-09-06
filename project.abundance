@@ -55,7 +55,7 @@
                 },
                 {
                     "name": "File Type",
-                    "ioValue": "STL",
+                    "ioValue": "STEP",
                     "currentEquation": null
                 },
                 {
@@ -70,7 +70,7 @@
                 }
             ],
             "description": "Export Atom, let's you choose a type of file to Export.",
-            "type": "STL",
+            "type": "STEP",
             "resolution": 96,
             "importIndex": 0,
             "partName": "M4_Alt_SpindleLock"
@@ -259,8 +259,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.3505687693898656,
-                    "y": 0.5656108597285068,
+                    "x": 0.3521819299323909,
+                    "y": 0.562874251497006,
                     "uniqueID": 1745367622487,
                     "ioValues": [
                         {
@@ -295,8 +295,8 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 3,
-                            "currentEquation": null
+                            "ioValue": 4,
+                            "currentEquation": "4"
                         },
                         {
                             "name": "y length",
@@ -437,8 +437,8 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 57,
-                            "currentEquation": null
+                            "ioValue": 55,
+                            "currentEquation": "55"
                         },
                         {
                             "name": "zDist",
@@ -467,8 +467,8 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -57,
-                            "currentEquation": null
+                            "ioValue": -55,
+                            "currentEquation": "-55"
                         },
                         {
                             "name": "zDist",
@@ -488,7 +488,7 @@
                         {
                             "name": "diameter",
                             "ioValue": 7,
-                            "currentEquation": "7"
+                            "currentEquation": null
                         }
                     ],
                     "description": "Creates a new circle."
@@ -528,12 +528,12 @@
                         {
                             "name": "xDist",
                             "ioValue": -15,
-                            "currentEquation": "-15"
+                            "currentEquation": null
                         },
                         {
                             "name": "yDist",
                             "ioValue": 55,
-                            "currentEquation": "55"
+                            "currentEquation": null
                         },
                         {
                             "name": "zDist",
