@@ -78,8 +78,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.28820754716981134,
-            "y": 0.23031809145129228,
+            "x": 0.2587584511370621,
+            "y": 0.21756487025948104,
             "uniqueID": 1745367621933,
             "ioValues": [
                 {
@@ -163,8 +163,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 0.30424093423478793,
-                    "y": 0.3852295409181637,
+                    "x": 0.30178242163491087,
+                    "y": 0.3013972055888224,
                     "uniqueID": 1745367621999,
                     "ioValues": [
                         {
@@ -487,8 +487,8 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 10,
-                            "currentEquation": null
+                            "ioValue": 7,
+                            "currentEquation": "7"
                         }
                     ],
                     "description": "Creates a new circle."
@@ -546,13 +546,17 @@
                 {
                     "atomType": "Fusion",
                     "name": "Fusion",
-                    "x": 0.3521819299323909,
-                    "y": 0.49101796407185627,
+                    "x": 0.34910878918254457,
+                    "y": 0.4091816367265469,
                     "uniqueID": "2d67308d-0481-4e14-8e18-189bcd7771fa",
                     "ioValues": [
                         {
                             "name": "Shape 1",
                             "ioValue": "6d9dadbb-4465-476d-807b-0accb78f0b84"
+                        },
+                        {
+                            "name": "Shape 2",
+                            "ioValue": 1745367621999
                         }
                     ],
                     "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
@@ -571,6 +575,12 @@
                     "ap2Name": "geometry",
                     "ap1ID": 1745367622131,
                     "ap2ID": 1745367621999
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape 2",
+                    "ap1ID": 1745367621999,
+                    "ap2ID": "2d67308d-0481-4e14-8e18-189bcd7771fa"
                 },
                 {
                     "ap1Name": "geometry",
