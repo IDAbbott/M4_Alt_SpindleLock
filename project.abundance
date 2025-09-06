@@ -17,7 +17,7 @@
             "ioValues": [
                 {
                     "name": "number or geometry",
-                    "ioValue": 1745367622132,
+                    "ioValue": "3bf963d8-7f35-4b25-9e70-8a2cd934e3c0",
                     "currentEquation": null
                 }
             ],
@@ -44,10 +44,15 @@
         {
             "atomType": "Export",
             "name": "Export",
-            "x": 0.44566115702479336,
-            "y": 0.5721719457013574,
+            "x": 0.5273509526736325,
+            "y": 0.716566866267465,
             "uniqueID": 1745367622532,
             "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "3bf963d8-7f35-4b25-9e70-8a2cd934e3c0",
+                    "currentEquation": null
+                },
                 {
                     "name": "File Type",
                     "ioValue": "STEP",
@@ -1367,14 +1372,44 @@
             ],
             "fileTypeVersion": 1,
             "compiledBom": []
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.4376152427781193,
+            "y": 0.4950099800399202,
+            "uniqueID": "3bf963d8-7f35-4b25-9e70-8a2cd934e3c0",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1745367622132,
+                    "currentEquation": null
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 0,
+                    "currentEquation": null
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0,
+                    "currentEquation": null
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 1,
+                    "currentEquation": "1"
+                }
+            ],
+            "description": "Moves a shape laterally in X, Y, Z."
         }
     ],
     "allConnectors": [
         {
             "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
+            "ap2Name": "geometry",
             "ap1ID": 1745367622132,
-            "ap2ID": 1745367617559
+            "ap2ID": "3bf963d8-7f35-4b25-9e70-8a2cd934e3c0"
         },
         {
             "ap1Name": "geometry",
@@ -1393,6 +1428,18 @@
             "ap2Name": "geometry",
             "ap1ID": 1745367622335,
             "ap2ID": 1745367621933
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap1ID": "3bf963d8-7f35-4b25-9e70-8a2cd934e3c0",
+            "ap2ID": 1745367622532
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap1ID": "3bf963d8-7f35-4b25-9e70-8a2cd934e3c0",
+            "ap2ID": 1745367617559
         }
     ],
     "unitsKey": "MM",
