@@ -11,8 +11,8 @@
         {
             "atomType": "Output",
             "name": "Output",
-            "x": 0.9666374012291483,
-            "y": 0.4855371900826447,
+            "x": 0.9561320754716982,
+            "y": 0.47128712871287126,
             "uniqueID": 1745367617559,
             "ioValues": [
                 {
@@ -37,7 +37,7 @@
                 },
                 {
                     "name": "File Type",
-                    "ioValue": "STL",
+                    "ioValue": "STEP",
                     "currentEquation": null
                 },
                 {
@@ -52,7 +52,7 @@
                 }
             ],
             "description": "Export Atom, let's you choose a type of file to Export.",
-            "type": "STL",
+            "type": "STEP",
             "resolution": 96,
             "importIndex": 0,
             "partName": "M4_Alt_SpindleLock"
@@ -71,8 +71,8 @@
                 },
                 {
                     "name": "xDist",
-                    "ioValue": -63,
-                    "currentEquation": "-63"
+                    "ioValue": -61,
+                    "currentEquation": "-61"
                 },
                 {
                     "name": "yDist",
@@ -82,7 +82,7 @@
                 {
                     "name": "zDist",
                     "ioValue": -2,
-                    "currentEquation": "-2"
+                    "currentEquation": null
                 }
             ],
             "description": "Moves a shape laterally in X, Y, Z."
@@ -326,8 +326,8 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 4,
-                            "currentEquation": null
+                            "ioValue": 3,
+                            "currentEquation": "3"
                         },
                         {
                             "name": "y length",
@@ -411,8 +411,8 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": -2,
-                            "currentEquation": null
+                            "ioValue": 0,
+                            "currentEquation": "0"
                         },
                         {
                             "name": "yDist",
@@ -999,8 +999,8 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 0.10535557506584722,
-                    "y": 0.1652892561983471,
+                    "x": 0.15990566037735848,
+                    "y": 0.13267326732673268,
                     "uniqueID": 1745367622412,
                     "ioValues": [
                         {
