@@ -357,11 +357,13 @@
         },
         {
           "name": "yDist",
-          "ioValue": 0
+          "ioValue": 0,
+          "currentEquation": "0"
         },
         {
           "name": "zDist",
-          "ioValue": 0
+          "ioValue": -8,
+          "currentEquation": "-8"
         }
       ]
     },
@@ -1834,6 +1836,11 @@
       "ap2Name": "Shape 3",
       "ap1ID": "id-787",
       "ap2ID": "id-261"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-787",
+      "ap2ID": "id-256"
     }
   ],
   "unitsKey": "MM",
