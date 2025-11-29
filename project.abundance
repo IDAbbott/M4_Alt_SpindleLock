@@ -170,8 +170,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.7470588235294118,
-      "y": 0.29583333333333334,
+      "x": 0.7416289592760181,
+      "y": 0.4291666666666667,
       "uniqueID": "id-261",
       "ioValues": [
         {
@@ -1796,6 +1796,30 @@
         }
       ],
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Export",
+      "x": 0.8230769230769232,
+      "y": 0.6041666666666666,
+      "uniqueID": "id-1161",
+      "ioValues": [
+        {
+          "name": "File Type",
+          "ioValue": "STEP"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "M4_Alt_SpindleLock"
+        }
+      ],
+      "type": "STEP",
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "M4_Alt_SpindleLock"
     }
   ],
   "allConnectors": [
@@ -1823,6 +1847,11 @@
       "ap2Name": "number or geometry",
       "ap1ID": "id-261",
       "ap2ID": 1745367617559
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-261",
+      "ap2ID": "id-1161"
     },
     {
       "ap2Name": "Shape 2",
