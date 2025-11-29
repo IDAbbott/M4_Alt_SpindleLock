@@ -66,12 +66,13 @@
       "ioValues": [
         {
           "name": "xDist",
-          "ioValue": -5,
-          "currentEquation": "-5"
+          "ioValue": -25,
+          "currentEquation": "-25"
         },
         {
           "name": "yDist",
-          "ioValue": 0
+          "ioValue": 0,
+          "currentEquation": "0"
         },
         {
           "name": "zDist",
@@ -169,8 +170,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.7447963800904978,
-      "y": 0.3333333333333333,
+      "x": 0.7470588235294118,
+      "y": 0.29583333333333334,
       "uniqueID": "id-261",
       "ioValues": [
         {
@@ -1262,7 +1263,8 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 102
+              "ioValue": 105,
+              "currentEquation": "105"
             }
           ]
         },
