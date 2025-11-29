@@ -160,8 +160,8 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 101,
-          "currentEquation": "101"
+          "ioValue": 102,
+          "currentEquation": "102"
         }
       ]
     },
@@ -345,21 +345,24 @@
     },
     {
       "atomType": "Move",
-      "x": 0.6355421686746988,
-      "y": 0.592436974789916,
+      "x": 0.6927601809954751,
+      "y": 0.5729166666666667,
       "uniqueID": "id-250",
       "ioValues": [
         {
           "name": "xDist",
-          "ioValue": 30
+          "ioValue": -30,
+          "currentEquation": "-30"
         },
         {
           "name": "yDist",
-          "ioValue": 0
+          "ioValue": 0,
+          "currentEquation": "0"
         },
         {
           "name": "zDist",
-          "ioValue": -8
+          "ioValue": 5,
+          "currentEquation": "5"
         }
       ]
     },
@@ -619,8 +622,8 @@
     },
     {
       "atomType": "Rotate",
-      "x": 0.7355421686746988,
-      "y": 0.592436974789916,
+      "x": 0.7398190045248868,
+      "y": 0.5875,
       "uniqueID": "id-787",
       "ioValues": [
         {
@@ -1678,6 +1681,28 @@
         }
       ],
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Rotate",
+      "x": 0.6411764705882353,
+      "y": 0.5791666666666667,
+      "uniqueID": "id-1036",
+      "ioValues": [
+        {
+          "name": "x-axis degrees",
+          "ioValue": 0,
+          "currentEquation": "0"
+        },
+        {
+          "name": "y-axis degrees",
+          "ioValue": 180,
+          "currentEquation": "180"
+        },
+        {
+          "name": "z-axis degrees",
+          "ioValue": 0
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -1749,7 +1774,7 @@
     {
       "ap2Name": "geometry",
       "ap1ID": "id-221",
-      "ap2ID": "id-250"
+      "ap2ID": "id-1036"
     },
     {
       "ap2Name": "geometry",
@@ -1835,6 +1860,11 @@
       "ap2Name": "geometry",
       "ap1ID": 1745367622335,
       "ap2ID": 1745367621933
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-1036",
+      "ap2ID": "id-250"
     }
   ],
   "unitsKey": "MM",
