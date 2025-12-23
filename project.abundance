@@ -20,7 +20,8 @@
       "ioValues": [
         {
           "name": "File Type",
-          "ioValue": "STEP"
+          "ioValue": "STEP",
+          "currentEquation": "STL"
         },
         {
           "name": "Resolution (dpi)",
@@ -28,7 +29,8 @@
         },
         {
           "name": "Part Name",
-          "ioValue": "M4_Alt_SpindleLock"
+          "ioValue": "M4_Alt_SpindleLock",
+          "currentEquation": "M4_Alt_SpindleLock"
         }
       ],
       "type": "STEP",
@@ -44,8 +46,7 @@
       "ioValues": [
         {
           "name": "xDist",
-          "ioValue": -61,
-          "currentEquation": "-61"
+          "ioValue": -61
         },
         {
           "name": "yDist",
@@ -53,8 +54,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         }
       ]
     },
@@ -66,18 +66,15 @@
       "ioValues": [
         {
           "name": "xDist",
-          "ioValue": -25,
-          "currentEquation": "-25"
+          "ioValue": -25
         },
         {
           "name": "yDist",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         },
         {
           "name": "zDist",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         }
       ]
     },
@@ -152,7 +149,8 @@
       "ioValues": [
         {
           "name": "File Type",
-          "ioValue": "STEP"
+          "ioValue": "STEP",
+          "currentEquation": "STL"
         },
         {
           "name": "Resolution (dpi)",
@@ -160,7 +158,8 @@
         },
         {
           "name": "Part Name",
-          "ioValue": "M4_Alt_SpindleLockSupport"
+          "ioValue": "M4_Alt_SpindleLockSupport",
+          "currentEquation": "M4_Alt_SpindleLock"
         }
       ],
       "type": "STEP",
@@ -183,6 +182,32 @@
           "ioValue": null
         }
       ]
+    },
+    {
+      "atomType": "Export",
+      "x": 0.8230769230769232,
+      "y": 0.6041666666666666,
+      "uniqueID": "id-1161",
+      "ioValues": [
+        {
+          "name": "File Type",
+          "ioValue": "STEP",
+          "currentEquation": "STL"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "M4_Alt_SpindleLock",
+          "currentEquation": "M4_Alt_SpindleLock"
+        }
+      ],
+      "type": "STEP",
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "M4_Alt_SpindleLock"
     },
     {
       "atomType": "Molecule",
@@ -297,8 +322,7 @@
             },
             {
               "name": "zDist",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             }
           ]
         },
@@ -1090,8 +1114,7 @@
           "ioValues": [
             {
               "name": "xDist",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             },
             {
               "name": "yDist",
@@ -1099,8 +1122,7 @@
             },
             {
               "name": "zDist",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             }
           ]
         }
@@ -1263,8 +1285,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 105,
-              "currentEquation": "105"
+              "ioValue": 105
             }
           ]
         },
@@ -1276,8 +1297,7 @@
           "ioValues": [
             {
               "name": "height",
-              "ioValue": 9,
-              "currentEquation": "9"
+              "ioValue": 9
             }
           ]
         },
@@ -1419,8 +1439,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": -38,
-              "currentEquation": "-38"
+              "ioValue": -38
             },
             {
               "name": "zDist",
@@ -1436,13 +1455,11 @@
           "ioValues": [
             {
               "name": "xDist",
-              "ioValue": -10,
-              "currentEquation": "-10"
+              "ioValue": -10
             },
             {
               "name": "yDist",
-              "ioValue": 38,
-              "currentEquation": "38"
+              "ioValue": 38
             },
             {
               "name": "zDist",
@@ -1796,30 +1813,6 @@
         }
       ],
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Export",
-      "x": 0.8230769230769232,
-      "y": 0.6041666666666666,
-      "uniqueID": "id-1161",
-      "ioValues": [
-        {
-          "name": "File Type",
-          "ioValue": "STEP"
-        },
-        {
-          "name": "Resolution (dpi)",
-          "ioValue": 96
-        },
-        {
-          "name": "Part Name",
-          "ioValue": "M4_Alt_SpindleLock"
-        }
-      ],
-      "type": "STEP",
-      "resolution": 96,
-      "importIndex": 0,
-      "partName": "M4_Alt_SpindleLock"
     }
   ],
   "allConnectors": [
