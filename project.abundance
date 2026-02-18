@@ -10,7 +10,13 @@
       "atomType": "Output",
       "x": 0.9824561403508772,
       "y": 0.3172268907563025,
-      "uniqueID": 1745367617559
+      "uniqueID": 1745367617559,
+      "ioValues": [
+        {
+          "name": "number or geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
     },
     {
       "atomType": "Export",
@@ -18,6 +24,10 @@
       "y": 0.12605042016806722,
       "uniqueID": 1745367622532,
       "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
         {
           "name": "File Type",
           "ioValue": "STEP",
@@ -45,6 +55,10 @@
       "uniqueID": 1745367621933,
       "ioValues": [
         {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
           "name": "xDist",
           "ioValue": -61
         },
@@ -64,6 +78,10 @@
       "y": 0.35625,
       "uniqueID": "3bf963d8-7f35-4b25-9e70-8a2cd934e3c0",
       "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
         {
           "name": "xDist",
           "ioValue": -25
@@ -148,6 +166,10 @@
       "uniqueID": "id-256",
       "ioValues": [
         {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
           "name": "File Type",
           "ioValue": "STEP",
           "currentEquation": "STL"
@@ -184,32 +206,6 @@
       ]
     },
     {
-      "atomType": "Export",
-      "x": 0.8230769230769232,
-      "y": 0.6041666666666666,
-      "uniqueID": "id-1161",
-      "ioValues": [
-        {
-          "name": "File Type",
-          "ioValue": "STEP",
-          "currentEquation": "STL"
-        },
-        {
-          "name": "Resolution (dpi)",
-          "ioValue": 96
-        },
-        {
-          "name": "Part Name",
-          "ioValue": "M4_Alt_SpindleLock",
-          "currentEquation": "M4_Alt_SpindleLock"
-        }
-      ],
-      "type": "STEP",
-      "resolution": 96,
-      "importIndex": 0,
-      "partName": "M4_Alt_SpindleLock"
-    },
-    {
       "atomType": "Molecule",
       "x": 0.10407239819004525,
       "y": 0.6020833333333334,
@@ -221,7 +217,13 @@
           "atomType": "Output",
           "x": 0.98,
           "y": 0.5,
-          "uniqueID": 1745367621843
+          "uniqueID": 1745367621843,
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
         },
         {
           "atomType": "Circle",
@@ -254,6 +256,10 @@
           "uniqueID": 1745367621999,
           "ioValues": [
             {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
               "name": "height",
               "ioValue": 4
             }
@@ -266,6 +272,10 @@
           "uniqueID": 1745367622172,
           "ioValues": [
             {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
               "name": "height",
               "ioValue": 4
             }
@@ -276,6 +286,12 @@
           "x": 0.3759433962264151,
           "y": 0.13717693836978131,
           "uniqueID": 1745367622565,
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
           "selectedColor": "Sand"
         },
         {
@@ -301,6 +317,10 @@
           "uniqueID": 1745367621968,
           "ioValues": [
             {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
               "name": "height",
               "ioValue": 10
             }
@@ -312,6 +332,10 @@
           "y": 0.8770833333333333,
           "uniqueID": 1745367622487,
           "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
             {
               "name": "xDist",
               "ioValue": 41.5
@@ -330,13 +354,33 @@
           "atomType": "Difference",
           "x": 0.4396226415094339,
           "y": 0.32803180914512925,
-          "uniqueID": 1746856380860
+          "uniqueID": 1746856380860,
+          "ioValues": [
+            {
+              "name": "geometry1",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "geometry2",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
         },
         {
           "atomType": "Difference",
           "x": 0.535377358490566,
           "y": 0.3558648111332008,
-          "uniqueID": 1746856726488
+          "uniqueID": 1746856726488,
+          "ioValues": [
+            {
+              "name": "geometry1",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "geometry2",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
         },
         {
           "atomType": "Move",
@@ -344,6 +388,10 @@
           "y": 0.4256198347107438,
           "uniqueID": "625959b8-5bf0-47fa-aaf7-615a044f8646",
           "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
             {
               "name": "xDist",
               "ioValue": 0
@@ -377,6 +425,10 @@
           "uniqueID": "a1ca6619-26fa-4bd1-af87-127a57143157",
           "ioValues": [
             {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
               "name": "height",
               "ioValue": 10
             }
@@ -388,6 +440,10 @@
           "y": 0.5583333333333333,
           "uniqueID": "6d9dadbb-4465-476d-807b-0accb78f0b84",
           "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
             {
               "name": "xDist",
               "ioValue": -15
@@ -557,7 +613,13 @@
           "atomType": "Output",
           "x": 0.98,
           "y": 0.5,
-          "uniqueID": 1745367622390
+          "uniqueID": 1745367622390,
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
         },
         {
           "atomType": "Circle",
@@ -577,6 +639,10 @@
           "y": 0.4483471074380165,
           "uniqueID": 1745367622548,
           "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
             {
               "name": "height",
               "ioValue": 12
@@ -606,6 +672,10 @@
           "uniqueID": 1745367622624,
           "ioValues": [
             {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
               "name": "height",
               "ioValue": 18
             }
@@ -616,6 +686,12 @@
           "x": 0.44191763982790416,
           "y": 0.9101796407185629,
           "uniqueID": 1745367622650,
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
           "selectedColor": "Red"
         },
         {
@@ -623,6 +699,12 @@
           "x": 0.31990950226244347,
           "y": 0.3666666666666667,
           "uniqueID": 1745367622080,
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
           "selectedColor": "Yellow"
         },
         {
@@ -648,6 +730,10 @@
           "uniqueID": 1745367622633,
           "ioValues": [
             {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
               "name": "xDist",
               "ioValue": -16
             },
@@ -668,6 +754,10 @@
           "uniqueID": 1745367622689,
           "ioValues": [
             {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
               "name": "height",
               "ioValue": 30
             }
@@ -679,6 +769,10 @@
           "y": 0.9416666666666665,
           "uniqueID": 1745367622330,
           "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
             {
               "name": "xDist",
               "ioValue": -2.5
@@ -699,6 +793,18 @@
           "y": 0.18163672654690619,
           "uniqueID": 1745367622713,
           "ioValues": [
+            {
+              "name": "Shape 1",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "Shape 3",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "Shape 4",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
             {
               "name": "Shape 1",
               "ioValue": {
@@ -791,6 +897,10 @@
           "uniqueID": 1745367622201,
           "ioValues": [
             {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
               "name": "xDist",
               "ioValue": 0
             },
@@ -810,6 +920,10 @@
           "y": 0.2809917355371901,
           "uniqueID": 1745367622246,
           "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
             {
               "name": "xDist",
               "ioValue": 0
@@ -847,6 +961,10 @@
           "uniqueID": "5ef74f32-d4c9-4f73-9603-b2b5ba1e8aee",
           "ioValues": [
             {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
               "name": "xDist",
               "ioValue": -2.5
             },
@@ -867,6 +985,10 @@
           "uniqueID": "bdc696bd-2fc4-424b-b2b3-e481260f9fff",
           "ioValues": [
             {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
               "name": "xDist",
               "ioValue": -2.5
             },
@@ -886,6 +1008,18 @@
           "y": 0.6916666666666667,
           "uniqueID": "b16f8adc-3983-4553-b817-716d548ca7d2",
           "ioValues": [
+            {
+              "name": "Shape 1",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "Shape 2",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "Shape 3",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
             {
               "name": "Shape 1",
               "ioValue": {
@@ -1014,7 +1148,17 @@
           "atomType": "Difference",
           "x": 0.4990780577750461,
           "y": 0.3892215568862275,
-          "uniqueID": "ed740bef-10f5-4557-a6d1-2436cf5670ab"
+          "uniqueID": "ed740bef-10f5-4557-a6d1-2436cf5670ab",
+          "ioValues": [
+            {
+              "name": "geometry1",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "geometry2",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
         },
         {
           "atomType": "Fusion",
@@ -1112,6 +1256,10 @@
           "y": 0.5489021956087824,
           "uniqueID": "d40cd720-797d-41c9-b4e7-134d0d41a00a",
           "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
             {
               "name": "xDist",
               "ioValue": 0
@@ -1263,7 +1411,13 @@
           "atomType": "Output",
           "x": 0.98,
           "y": 0.5,
-          "uniqueID": "id-1050"
+          "uniqueID": "id-1050",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
         },
         {
           "atomType": "Circle",
@@ -1296,6 +1450,10 @@
           "uniqueID": "id-1054",
           "ioValues": [
             {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
               "name": "height",
               "ioValue": 9
             }
@@ -1308,6 +1466,10 @@
           "uniqueID": "id-1055",
           "ioValues": [
             {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
               "name": "height",
               "ioValue": 3
             }
@@ -1319,6 +1481,10 @@
           "y": 0.23750000000000002,
           "uniqueID": "id-1056",
           "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
             {
               "name": "xDist",
               "ioValue": 0
@@ -1372,6 +1538,10 @@
           "uniqueID": "id-1059",
           "ioValues": [
             {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
               "name": "height",
               "ioValue": 10
             }
@@ -1383,6 +1553,10 @@
           "y": 0.50625,
           "uniqueID": "id-1060",
           "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
             {
               "name": "xDist",
               "ioValue": 35
@@ -1401,7 +1575,17 @@
           "atomType": "Difference",
           "x": 0.6271493212669683,
           "y": 0.49583333333333335,
-          "uniqueID": "id-1061"
+          "uniqueID": "id-1061",
+          "ioValues": [
+            {
+              "name": "geometry1",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "geometry2",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
         },
         {
           "atomType": "Circle",
@@ -1422,6 +1606,10 @@
           "uniqueID": "id-1063",
           "ioValues": [
             {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
               "name": "height",
               "ioValue": 10
             }
@@ -1433,6 +1621,10 @@
           "y": 0.9270833333333334,
           "uniqueID": "id-1064",
           "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
             {
               "name": "xDist",
               "ioValue": -10
@@ -1453,6 +1645,10 @@
           "y": 0.79375,
           "uniqueID": "id-1065",
           "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
             {
               "name": "xDist",
               "ioValue": -10
@@ -1486,6 +1682,10 @@
           "uniqueID": "id-1068",
           "ioValues": [
             {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
               "name": "height",
               "ioValue": 10
             }
@@ -1510,6 +1710,10 @@
           "uniqueID": "id-1070",
           "ioValues": [
             {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
               "name": "height",
               "ioValue": 10
             }
@@ -1521,6 +1725,10 @@
           "y": 0.7166666666666667,
           "uniqueID": "id-1071",
           "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
             {
               "name": "xDist",
               "ioValue": -60
@@ -1686,6 +1894,10 @@
           "uniqueID": "id-1074",
           "ioValues": [
             {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
               "name": "xDist",
               "ioValue": 0
             },
@@ -1840,11 +2052,6 @@
       "ap2Name": "number or geometry",
       "ap1ID": "id-261",
       "ap2ID": 1745367617559
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-261",
-      "ap2ID": "id-1161"
     },
     {
       "ap2Name": "Shape 2",
